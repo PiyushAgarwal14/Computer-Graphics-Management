@@ -7,7 +7,7 @@ int main()
     int gd = DETECT,gm;
     initgraph (&gd, &gm, "C:\\TC\\BGI");
     setcolor(5);
-    outtextxy(250,250, "Pyush Agarwal");
+    outtextxy(250,250, "Piyush Agarwal");
     getch();
     closegraph();
     return 0;
