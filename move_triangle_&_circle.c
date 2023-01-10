@@ -3,6 +3,7 @@
 #include <graphics.h>
 
 void main(){
+    
 
     int n,gd=DETECT,gm;
 
@@ -15,6 +16,8 @@ void main(){
         line(150+n,100,200+n,200);
         line(100+n,200,200+n,200);
         circle(150+n,170,20);
+        
+        outtextxy(60+n,230,"Made by Piyush Agarwal");
         delay(10);
     }
     
